@@ -3,7 +3,7 @@ local M = {}
 function M.highlight(palette, opts)
   return {
     markdownBlockquote = { fg = palette.accent },
-    markdownBold = { fg = palette.yellow, bold = true },
+    markdownBold = { fg = palette.yellow, bold = false },
     markdownCode = { fg = palette.green },
     markdownCodeBlock = { fg = palette.green },
     markdownCodeDelimiter = { fg = palette.green },

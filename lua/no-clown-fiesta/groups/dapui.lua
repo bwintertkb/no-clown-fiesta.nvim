@@ -4,9 +4,9 @@ function M.highlight(palette, opts)
   return {
     DapUIScope                   = { fg = palette.cyan },
     DapUIType                    = { fg = palette.magenta },
-    DapUIModifiedValue           = { fg = palette.cyan, bold = true },
+    DapUIModifiedValue           = { fg = palette.cyan, bold = false },
     DapUIDecoration              = { link = 'DapUIScope' },
-    DapUIThread                  = { fg = palette.green, bold = true },
+    DapUIThread                  = { fg = palette.green, bold = false },
     DapUIStoppedThread           = { link = 'DapUIScope' },
     DapUISource                  = { link = 'DapUIType' },
     DapUILineNumber              = { link = 'DapUIScope' },

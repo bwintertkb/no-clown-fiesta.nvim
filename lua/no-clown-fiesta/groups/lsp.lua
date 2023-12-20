@@ -33,7 +33,7 @@ function M.highlight(palette, opts)
       { sp = palette.hint },
       opts.styles.lsp
     ),
-    LspSignatureActiveParameter = { bg = palette.alt_bg, bold = true },
+    LspSignatureActiveParameter = { bg = palette.alt_bg, bold = false },
     LspCodeLens = { fg = palette.comment },
   }
 end

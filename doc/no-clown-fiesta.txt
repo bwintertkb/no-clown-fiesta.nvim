@@ -37,7 +37,7 @@ and override these.
         keywords = {},
         functions = {},
         variables = {},
-        type = { bold = true },
+        type = { bold = false },
       },
     })
 <

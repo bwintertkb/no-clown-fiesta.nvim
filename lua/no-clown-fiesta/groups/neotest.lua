@@ -17,7 +17,7 @@ function M.highlight(palette, opts)
     NeotestExpandMarker = { fg = palette.gray },
     NeotestFailed = { fg = palette.error },
     NeotestFile = { fg = palette.cyan },
-    NeotestFocused = { bold = true },
+    NeotestFocused = { bold = false },
     NeotestIndent = { fg = palette.fg },
     NeotestNamespace = { fg = palette.blue },
     NeotestPassed = { fg = palette.green },
