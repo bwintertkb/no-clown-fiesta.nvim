@@ -2,7 +2,7 @@
 
 local colors = {
   bg = "#171717",
-  fg = "#D0D0D0",
+  fg = "#FFF176",
 }
 
 return {
